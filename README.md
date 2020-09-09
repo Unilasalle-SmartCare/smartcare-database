@@ -1,7 +1,8 @@
 # smartcare-database
 
-### Diagrama de Classe Conceitual
-![DCC](/diagramas/DCC.png)
+- ## Diagramas
+   - ### Diagrama de Classe Conceitual
+   ![DCC](/diagramas/DCC.png)
 
-### Diagrama de Estrutura de Dados
-![DED](/diagramas/DED.png)
+   - ### Diagrama de Estrutura de Dados
+   - ![DED](/diagramas/DED.png)
