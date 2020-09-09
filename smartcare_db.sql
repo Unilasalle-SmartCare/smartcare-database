@@ -1,7 +1,6 @@
 
 -- -----------------------------------------------------
 -- Table `dbo`.`Dispositivo`
--- Drop Table Dispositivo
 -- -----------------------------------------------------
 CREATE TABLE Dispositivo (
   IdDispositivo INT NOT NULL,
@@ -15,7 +14,6 @@ CREATE TABLE Dispositivo (
 go
 -- -----------------------------------------------------
 -- `Tipo`
--- Drop Table Tipo
 -- -----------------------------------------------------
 CREATE TABLE Tipo (
   IdTipo INT NOT NULL,
@@ -24,7 +22,6 @@ CREATE TABLE Tipo (
 go
 -- -----------------------------------------------------
 -- `Medicao`
--- Drop Table Medicao
 -- -----------------------------------------------------
 CREATE TABLE Medicao (
   IdMedicao INT NOT NULL,
