@@ -5,4 +5,4 @@
    ![DCC](/diagramas/DCC.png)
 
    - ### Diagrama de Estrutura de Dados
-   - ![DED](/diagramas/DED.png)
+   ![DED](/diagramas/DED.png)
