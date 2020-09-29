@@ -1,116 +1,116 @@
 USE [smartcare_db]
 GO
 
-	--INSERTS DO BOT肙
+	--INSERTS DO BOT锟絆
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
 	 VALUES ('BTN-01',	2,	1,	'Usado para detectar uma pessoa deitada na cama', 4.9,	-5.4, '-Z')
 
-	--INSERTS DOS SENSORES DE PRESEN茿 PIR
+	--INSERTS DOS SENSORES DE Presen莽a PIR
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-	 VALUES ('PIR-01',	2,	1,	'Sensor de Presen鏰	Usado para detectar presen鏰', 4.5,	-5.1, '-Z')
+	 VALUES ('PIR-01',	2,	1,	'Sensor de Presen莽a',	'Usado para detectar Presen莽a', 4.5,	-5.1, '-Z')
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-	 VALUES ('PIR-02'	2,	2,	'Sensor de Presen鏰	Usado para detectar presen鏰',	1.75,	-5.1,	'-Z')	 
+	 VALUES ('PIR-02',	2,	2,	'Sensor de Presen莽a', 'Usado para detectar Presen莽a',	1.75,	-5.1,	'-Z')	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-	 VALUES ('PIR-03',	2,	3,	'Sensor de Presen鏰	Usado para detectar presen鏰',	1.5, -1.7, '-Z')
+	 VALUES ('PIR-03',	2,	3,	'Sensor de Presen莽a', 'Usado para detectar Presen莽a',	1.5, -1.7, '-Z')
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-	 VALUES ('PIR-04', 2, 4, 'Sensor de Presen鏰	Usado para detectar presen鏰', 8.45,  -1.45, '-Z')
+	 VALUES ('PIR-04', 2, 4, 'Sensor de Presen莽a', 'Usado para detectar Presen莽a', 8.45,  -1.45, '-Z')
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-	 VALUES ('PIR-05',	2,	5,	'Sensor de Presen鏰	Usado para detectar presen鏰',	3.7, -3.2, '-Z')
+	 VALUES ('PIR-05',	2,	5,	'Sensor de Presen莽a', 'Usado para detectar Presen莽a',	3.7, -3.2, '-Z')
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-	 VALUES ('PIR-06',	2,	6,	'Sensor de Presen鏰	Usado para detectar presen鏰',	5.75,	-1.45,	'-Z')
+	 VALUES ('PIR-06',	2,	6,	'Sensor de Presen莽a', 'Usado para detectar Presen莽a',	5.75,	-1.45,	'-Z')
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-	 VALUES ('PIR-07',	2,	7,	'Sensor de Presen鏰	Usado para detectar presen鏰',	3.95,	-1.45,	'-Z')
+	 VALUES ('PIR-07',	2,	7,	'Sensor de Presen莽a', 'Usado para detectar Presen莽a',	3.95,	-1.45,	'-Z')
 
-	 --INSERTS DOS SENSORES DE DIST翹CIA ULTRASS訬ICO UIR
+	 --INSERTS DOS SENSORES DE dist芒ncia Ultrass么nico UIR
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-11' ,2 ,1 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa', 4.50 , -5.10 ,'+Y')
-
-	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-12' ,2 ,1 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa', 4.15 , -4.00 ,'-X')
+     VALUES ('UIR-11' ,2 ,1 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa', 4.50 , -5.10 ,'+Y')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-21' ,2 ,2 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa', 1.75 , -5.10 ,'-Y')
+     VALUES ('UIR-12' ,2 ,1 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa', 4.15 , -4.00 ,'-X')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-22' ,2 ,2 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa', 2.30 , -4.00 ,'+X')
+     VALUES ('UIR-21' ,2 ,2 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa', 1.75 , -5.10 ,'-Y')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-31' ,2 ,3 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa', 0.00 , -1.70 ,'+X')
+     VALUES ('UIR-22' ,2 ,2 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa', 2.30 , -4.00 ,'+X')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-32' ,2 ,3 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa', 2.30 , -3.20 ,'+X')
+     VALUES ('UIR-31' ,2 ,3 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa', 0.00 , -1.70 ,'+X')
+
+	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
+     VALUES ('UIR-32' ,2 ,3 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa', 2.30 , -3.20 ,'+X')
 	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-41' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-41' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 6.50 , -2.65 ,'+X')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-42' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-42' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 6.50 , -1.05 ,'+X')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-43' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-43' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 7.40 , 0.00 ,'-Y')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-44' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-44' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 8.60 , 0.00 ,'-Y')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-45' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-45' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 9.80 , 0.00 ,'-Y')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-46' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-46' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 10.30 , -1.05 ,'-X')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-47' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-47' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 10.30 , -2.05 ,'-X')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-48' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-48' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 8.60 , -3.50 ,'+Y')
 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-49' ,2 ,4 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-49' ,2 ,4 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 7.40 , -3.50 ,'+Y')
 	  INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-50' ,2 ,5 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-50' ,2 ,5 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 6.20 , -3.50 ,'+Y')
 	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-51' ,2 ,5 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-51' ,2 ,5 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 5.00 , -3.50 ,'+Y')
 	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-52' ,2 ,5 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-52' ,2 ,5 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 3.45 , -2.75 ,'-Y')
 	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-53' ,2 ,5 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-53' ,2 ,5 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 5.55 , -2.75 ,'-Y')	 
 	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-61' ,2 ,6 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-61' ,2 ,6 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 5.15 , -0.25 ,'+X')
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-62' ,2 ,6 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-62' ,2 ,6 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 5.15 , -1.10 ,'+X')
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-63' ,2 ,6 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-63' ,2 ,6 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 5.15 , -2.10 ,'+X')	 
 	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-71' ,2 ,7 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-71' ,2 ,7 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 4.50 , -0.45 ,'-X')
 	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-72' ,2 ,7 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-72' ,2 ,7 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 4.50 , -1.10 ,'-X')
 	 
 	 INSERT INTO [dbo].[Dispositivo] ([CodigoDispositivo] ,[IdTipo] ,[IdAmbiente] ,[Nome] ,[Descricao] ,[Eixo_X] ,[Eixo_Y] ,[Orientacao])
-     VALUES ('UIR-73' ,2 ,7 ,'Ultrass鬾ico' , 'Usado para detectar a dist鈔cia de um objeto ou pessoa'
+     VALUES ('UIR-73' ,2 ,7 ,'Ultrass么nico' , 'Usado para detectar a dist芒ncia de um objeto ou pessoa'
 	 , 3.65 , -2.10 ,'+X')
 
 GO
