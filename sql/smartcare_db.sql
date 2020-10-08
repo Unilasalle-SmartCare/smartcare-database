@@ -51,7 +51,7 @@ CREATE TABLE Medicao (
   IdMedicao INT NOT NULL IDENTITY PRIMARY KEY,
   IdDispositivo INT NULL,
   DataHora DATETIME NULL,
-  Valor FLOAT NULL,
+  Valor NVARCHAR(10) NULL,
   Unidade CHAR(4) NULL,
   FOREIGN KEY (IdDispositivo) REFERENCES Dispositivo(IdDispositivo))
   go
